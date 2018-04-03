@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- responsive css -->
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <!-- table -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+        <link rel="stylesheet" type="text/css" href="css/shCore.css">
+        <!-- head and title-->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Teacher salary changes</title>
+        <!-- Customized css -->
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/customized.css" rel="stylesheet">
+    </head>
+
+
+   
+
+
+    <body >
+        <section class="content main-graphics">
+        
+            <div class="masthead">
+                <div class="masthead-contents container">
+                    <div class="row">        
+                        <div class="masthead-title col-md-8 col-md-offset-2">
+                            <svg width="120" height="15" >
+                                <line x1="0" x2="95" y1="10" y2="10" stroke-width="5"/>
+                            </svg>
+                            <div class="text-tab">INTERACTIVE</div>
+                            <p class="header">How much do teachers make? </p>
+                            <p class="dek">In many states, teacher salaries have effectively fallen over the past 15 years</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="main-content col-md-8 col-md-offset-2">
+
+
+
+<!-- part1 map -->
+                        <div class="row">
+                            <div class="col-md-12 bttnrow center">
+                                <div id="rect0" class="bttn active">Change since 1999</div> 
+                                <div id="rect1" class="bttn">2016-2017</div>
+                            </div>
+
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col-xs-12 legendbox legendboxlead">
+                                <p class="legendtext hovertext">Hover to see data</p>
+                            </div>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-xs-12 legendtextline">
+                                <div id ="legendbox" ></div>
+                                <!-- <p class="legendtext1">-20</p>
+                                <p class="legendtext2">-15</p>
+                                <p class="legendtext3">-10</p>
+                                <p class="legendtext4">-5</p>
+                                <p class="legendtext5">0</p>
+                                <p class="legendtext6">5</p>
+                                <p class="legendtext7">10</p>
+                                <p class="legendtext8">15</p>
+                                <p class="legendtext9">20%</p> -->
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 legendboxline">
+                                <div id ="legendsquarebox" ></div>
+                                <!-- <div class="legendsquare1"></div>
+                                <div class="legendsquare2"></div>
+                                <div class="legendsquare3"></div>
+                                <div class="legendsquare4"></div>
+                                <div class="legendsquare5"></div>
+                                <div class="legendsquare6"></div>
+                                <div class="legendsquare7"></div>
+                                <div class="legendsquare8"></div> -->
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div id="mapbox" class="map-container"></div>
+                                <div class="tooltip"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <!-- pcsize -->
+                                <div id="table" class="table-container">
+                                    <table id="example2" class="display" cellspacing="0" width="100%">
+                                    <thead>
+                                        <th class="state">State</th>
+                                        <th class="numberold">1999-2000</th>
+                                        <th class="numbernew">2016-2017</th>
+                                        <th class="pctchange">Percent change</th>
+                                    </thead>
+                                    <tbody id="sotuInfo"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+<!-- source and note line -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="sourceline">
+                                    <p class="footnote">Note: Data are constant dollars based on the Consumer Price Index (CPI), prepared by the Bureau of Labor Statistics, U.S. Department of Labor, adjusted to a school-year basis. The CPI does not account for differences in inflation rates from state to state.</p>
+                                    <p class="source">Source: National Center for Education Statistics</p>
+                                    <p class="credit">Interactive: Jiachuan Wu / NBC News</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <!-- d3 -->
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <!-- table -->
+        <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+        <script type="text/javascript" language="javascript" src="js/shCore.js"></script>
+        <script type="text/javascript" language="javascript" src="js/demo.js"></script>
+        <!-- template -->
+        <script src="js/underscore.js"></script>
+        <!-- embed -->
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+        <script src="js/app.js"></script>
+        
+     
+        
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+

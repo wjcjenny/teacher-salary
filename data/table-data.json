@@ -1,0 +1,308 @@
+[
+    {
+        "state": "Alabama",
+        "numberold": 52588,
+        "numbernew": 48868,
+        "pctchange": -7.1
+    },
+    {
+        "state": "Alaska",
+        "numberold": 66597,
+        "numbernew": 68138,
+        "pctchange": 2.3
+    },
+    {
+        "state": "Arizona",
+        "numberold": 52894,
+        "numbernew": 47403,
+        "pctchange": -10.4
+    },
+    {
+        "state": "Arkansas",
+        "numberold": 47854,
+        "numbernew": 48616,
+        "pctchange": 1.6
+    },
+    {
+        "state": "California",
+        "numberold": 68342,
+        "numbernew": 78711,
+        "pctchange": 15.2
+    },
+    {
+        "state": "Colorado",
+        "numberold": 54701,
+        "numbernew": 46506,
+        "pctchange": -15.0
+    },
+    {
+        "state": "Connecticut",
+        "numberold": 74219,
+        "numbernew": 72561,
+        "pctchange": -2.2
+    },
+    {
+        "state": "Delaware",
+        "numberold": 63691,
+        "numbernew": 60214,
+        "pctchange": -5.5
+    },
+    {
+        "state": "District of Columbia",
+        "numberold": 67477,
+        "numbernew": 76131,
+        "pctchange": 12.8
+    },
+    {
+        "state": "Florida",
+        "numberold": 52636,
+        "numbernew": 49407,
+        "pctchange": -6.1
+    },
+    {
+        "state": "Georgia",
+        "numberold": 58801,
+        "numbernew": 54602,
+        "pctchange": -7.1
+    },
+    {
+        "state": "Hawaii",
+        "numberold": 58163,
+        "numbernew": 57674,
+        "pctchange": -0.8
+    },
+    {
+        "state": "Idaho",
+        "numberold": 50952,
+        "numbernew": 47504,
+        "pctchange": -6.8
+    },
+    {
+        "state": "Illinois",
+        "numberold": 66631,
+        "numbernew": 61602,
+        "pctchange": -7.5
+    },
+    {
+        "state": "Indiana",
+        "numberold": 59986,
+        "numbernew": 50554,
+        "pctchange": -15.7
+    },
+    {
+        "state": "Iowa",
+        "numberold": 51139,
+        "numbernew": 55443,
+        "pctchange": 8.4
+    },
+    {
+        "state": "Kansas",
+        "numberold": 50140,
+        "numbernew": 47984,
+        "pctchange": -4.3
+    },
+    {
+        "state": "Kentucky",
+        "numberold": 52146,
+        "numbernew": 52339,
+        "pctchange": 0.4
+    },
+    {
+        "state": "Louisiana",
+        "numberold": 47457,
+        "numbernew": 50000,
+        "pctchange": 5.4
+    },
+    {
+        "state": "Maine",
+        "numberold": 50972,
+        "numbernew": 51077,
+        "pctchange": 0.2
+    },
+    {
+        "state": "Maryland",
+        "numberold": 63137,
+        "numbernew": 66961,
+        "pctchange": 6.1
+    },
+    {
+        "state": "Massachusetts",
+        "numberold": 66766,
+        "numbernew": 77804,
+        "pctchange": 16.5
+    },
+    {
+        "state": "Michigan",
+        "numberold": 70298,
+        "numbernew": 62200,
+        "pctchange": -11.5
+    },
+    {
+        "state": "Minnesota",
+        "numberold": 57051,
+        "numbernew": 57346,
+        "pctchange": 0.5
+    },
+    {
+        "state": "Mississippi",
+        "numberold": 45662,
+        "numbernew": 42925,
+        "pctchange": -6.0
+    },
+    {
+        "state": "Missouri",
+        "numberold": 51108,
+        "numbernew": 48293,
+        "pctchange": -5.5
+    },
+    {
+        "state": "Montana",
+        "numberold": 46041,
+        "numbernew": 51422,
+        "pctchange": 11.7
+    },
+    {
+        "state": "Nebraska",
+        "numberold": 47641,
+        "numbernew": 52338,
+        "pctchange": 9.9
+    },
+    {
+        "state": "Nevada",
+        "numberold": 56460,
+        "numbernew": 57376,
+        "pctchange": 1.6
+    },
+    {
+        "state": "New Hampshire",
+        "numberold": 54086,
+        "numbernew": 57253,
+        "pctchange": 5.9
+    },
+    {
+        "state": "New Jersey",
+        "numberold": 74556,
+        "numbernew": 69623,
+        "pctchange": -6.6
+    },
+    {
+        "state": "New Mexico",
+        "numberold": 46662,
+        "numbernew": 47500,
+        "pctchange": 1.8
+    },
+    {
+        "state": "New York",
+        "numberold": 73130,
+        "numbernew": 79637,
+        "pctchange": 8.9
+    },
+    {
+        "state": "North Carolina",
+        "numberold": 56480,
+        "numbernew": 49837,
+        "pctchange": -11.8
+    },
+    {
+        "state": "North Dakota",
+        "numberold": 42804,
+        "numbernew": 51618,
+        "pctchange": 20.6
+    },
+    {
+        "state": "Ohio",
+        "numberold": 59393,
+        "numbernew": 57000,
+        "pctchange": -4.0
+    },
+    {
+        "state": "Oklahoma",
+        "numberold": 44861,
+        "numbernew": 45245,
+        "pctchange": 0.9
+    },
+    {
+        "state": "Oregon",
+        "numberold": 60683,
+        "numbernew": 61631,
+        "pctchange": 1.6
+    },
+    {
+        "state": "Pennsylvania",
+        "numberold": 69261,
+        "numbernew": 65863,
+        "pctchange": -4.9
+    },
+    {
+        "state": "Rhode Island",
+        "numberold": 67427,
+        "numbernew": 66477,
+        "pctchange": -1.4
+    },
+    {
+        "state": "South Carolina",
+        "numberold": 51717,
+        "numbernew": 48598,
+        "pctchange": -6.0
+    },
+    {
+        "state": "South Dakota",
+        "numberold": 41669,
+        "numbernew": 42668,
+        "pctchange": 2.4
+    },
+    {
+        "state": "Tennessee",
+        "numberold": 52071,
+        "numbernew": 48456,
+        "pctchange": -6.9
+    },
+    {
+        "state": "Texas",
+        "numberold": 53847,
+        "numbernew": 52575,
+        "pctchange": -2.4
+    },
+    {
+        "state": "Utah",
+        "numberold": 50090,
+        "numbernew": 47244,
+        "pctchange": -5.7
+    },
+    {
+        "state": "Vermont",
+        "numberold": 54121,
+        "numbernew": 60187,
+        "pctchange": 11.2
+    },
+    {
+        "state": "Virginia",
+        "numberold": 55534,
+        "numbernew": 51049,
+        "pctchange": -8.1
+    },
+    {
+        "state": "Washington",
+        "numberold": 58829,
+        "numbernew": 54147,
+        "pctchange": -8.0
+    },
+    {
+        "state": "West Virginia",
+        "numberold": 50180,
+        "numbernew": 45701,
+        "pctchange": -8.9
+    },
+    {
+        "state": "Wisconsin",
+        "numberold": 58987,
+        "numbernew": 54998,
+        "pctchange": -6.8
+    },
+    {
+        "state": "Wyoming",
+        "numberold": 48916,
+        "numbernew": 58650,
+        "pctchange": 19.9
+    }
+]
