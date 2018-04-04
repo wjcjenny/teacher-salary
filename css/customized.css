@@ -126,13 +126,14 @@ line{
 }
 */
 /*"#FF503C","#FD7C42","#FBA849","#F9D44F","#21D1AA","#26ACC6","#2B87E3","#3062FF"*/
-
+/*"#b2182b","#d6604d","#f4a582","#fddbc7","#d1e5f0","#92c5de","#4393c3","#2166ac"*/
+/*"#b35806","#e08214","#fdb863","#fee0b6","#d8daeb","#b2abd2","#8073ac","#542788"*/
 .legendsquarepct1{ 
     width:30px;
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #FF503C;
+    background-color: #b35806;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -142,7 +143,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #FD7C42;
+    background-color: #e08214;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -151,7 +152,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #FBA849;
+    background-color: #fdb863;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -160,7 +161,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #F9D44F;
+    background-color: #fee0b6;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -169,7 +170,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #21D1AA;
+    background-color: #d8daeb;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -178,7 +179,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #26ACC6;
+    background-color: #b2abd2;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -188,7 +189,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #2B87E3;
+    background-color: #8073ac;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -198,18 +199,20 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #3062FF;
+    background-color: #542788;
     display: inline-block;
     margin-bottom: 0px;
 }
 
-/*"#F1f0ED","#21D1AA","#26ACC6","#2B87E3","#3062FF","#2449B8","#183172","#102039"*/
+/*.range(["#fcfbfd","#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#4a1486"]);*/
+
+/*"#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#54278f","#3f007d"*/
 .legendsquarenumbernew1{ 
     width:30px;
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #edf8b1;
+    background-color: #efedf5;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -219,7 +222,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #21D1AA;
+    background-color: #dadaeb;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -228,7 +231,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #26ACC6;
+    background-color: #bcbddc;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -237,7 +240,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #2B87E3;
+    background-color: #9e9ac8;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -246,7 +249,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #3062FF;
+    background-color: #807dba;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -255,7 +258,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #2449B8;
+    background-color: #6a51a3;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -265,7 +268,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #183172;
+    background-color: #54278f;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -275,7 +278,7 @@ line{
     margin-right:0px;
     margin-left:0px;
     height: 15px;
-    background-color: #102039;
+    background-color: #3f007d;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -388,7 +391,11 @@ line{
 path:hover {
     fill-opacity: .7;
 }
-
+@media all and (min-width: 300px) and (max-width: 526px) {
+    path:hover {
+    fill-opacity: 1;
+}
+}
 .tooltip {
     display: block;
     z-index: 10;

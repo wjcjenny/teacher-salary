@@ -44,18 +44,15 @@ function percent(){
 
 			
 	// Define linear scale for output
-	var color = d3.scale.linear()
-				  .range(["#FF503C","#FD7C42","#FBA849","#F9D44F","#21D1AA","#26ACC6","#2B87E3","#3062FF"]);
+	var color = d3.scale.threshold()
+	// d3.scale.linear()
+				  .range(["#b35806","#e08214","#fdb863","#fee0b6","#d8daeb","#b2abd2","#8073ac","#542788"]);
 
 	var svgpctchange = d3.select("#superContainer-pctchange")
 				.append("svg")
 				.attr("class","svgMap")
 				.attr("width", "100%")
 				.append("g");
-
-	// var tooltip = d3.select("body").append("div") 
- //        .attr("class", "tooltip")       
- //        .style("opacity", 0);
 
 	// Append Div for tooltip to SVG
 	var divpctchange = d3.select("#superContainer-pctchange")
@@ -66,7 +63,6 @@ function percent(){
 		// Load in my states data!
 	d3.csv("data/data.csv", function(data) {
 		color.domain([-15,-10,-5,0,5,10,15]); 
-		// colornumbernew.domain([40000,45000,50000,55000,60000,65000,70000,75000,80000]);// setting the range of the input data
 		d3.json("data/us-states.json", function(json) {
 		
 			// Loop through each state data value in the .csv file
@@ -77,7 +73,6 @@ function percent(){
 
 
 				// Grab data value 
-
 				var numberoldValue = data[i].numberold;
 				var numbernewValue = data[i].numbernew;
 				var pctchangeValue = data[i].pctchange;
@@ -118,10 +113,10 @@ function percent(){
 				})
 				.on("mouseover", function(d) {  
 			    	divpctchange.transition()
-			    		.duration(200)
+			    		.duration(500)
 			    		.style("opacity", .9);
-			        //parse data with comma
 
+			        //parse data with comma
 					var formatComma = d3.format(",")
 					var positivesign = d3.format("+")
 
@@ -163,8 +158,8 @@ function numbernew(){
 
 			
 	// Define linear scale for output
-	var color = d3.scale.linear()
-				  .range(["#edf8b1","#21D1AA","#26ACC6","#2B87E3","#3062FF","#2449B8","#183172","#102039"]);
+	var color = d3.scale.threshold()
+				  .range(["#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#54278f","#3f007d"]);
 
 	var svgnumbernew = d3.select("#superContainer-numbernew")
 				.append("svg")
